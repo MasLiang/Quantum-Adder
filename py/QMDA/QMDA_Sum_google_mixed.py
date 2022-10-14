@@ -10,7 +10,7 @@ from BQFA.BQFA_Sum_First import *
 
 def QMDA_Sum_google_mixed(circ, q, c, n):
     '''
-    This circuit is quantum QMDA with qubit-efficient and low T-count optimisations. 
+    This circuit is QMDA with qubit-efficient and low T-count optimisations. 
         If user wants to add it in their circuits, they need to pass their circuit, 
         qubits, classical registers and length of input data that will be used in this 
         circuit.
