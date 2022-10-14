@@ -17,9 +17,7 @@ This is a library of quantum adder based on Qiskit platform provided by IBM, inc
 	- Sqrt_root_CNOT_Hermitian_gate
 - binary quantum full adder
   	- carry-first BQFA
-		There are two structures in this file: using 4 qbits or 3 qubits.
   	- sum-first BQFA
-		There are two structures in this file: using 4 qbits or 3 qubits.
   	- BQFA proposed in Biswas
   	- BQFA proposed in Cuccaro
   	- BQFA proposed in Google
@@ -34,13 +32,10 @@ This is a library of quantum adder based on Qiskit platform provided by IBM, inc
 	- CRA_in_Mazumder:		CRA based on BQFA in Mazumder
 	- CRA_in_Sohel:			CRA based on NQFA in Sohel
 - quantum most-significant digit-first adder
-  	- MSDF_Carry_First_4q_deep:	the QMDA based on carry-first BQFA with 4 qubits
-  	- MSDF_Carry_first:		the QMDA based on carry-first BQFA with 3 qubits
-  	- MSDF_Sum_Carry_google_mixed:	the QMDA with sum- and carry-first BQFA as well as the BQFA proposed in Google
-  	- MSDF_Sum_Carry_mixed_4q:	the QMDA with sum- and carry-first BQFA
-  	- MSDF_Sum_First_4q:		the QMDA with sum-first BQFA with 4 qubits
-  	- MSDF_Sum_first:		the QMDA with sum-first BQFA with 3 qubits
-  	- MSDF_Sum_google_mixed:	the QMDA with sum-first BQFA and the BQFA proposed in Google
+  	- QMDA_Carry_First:		Qubit-efficient QMDA with carry-first QFAs
+  	- MSDF_mixed:			QMDA with qubit-efficient and low T-count optimisations by using 
+        temporary logical-AND, carry- and sum-first QFAs
+  	- MSDF_Sum_google_mixed:	QMDA with qubit-efficient and low T-count optimisations. 
   	- MSDF_in_Biswas: 		the QMDA based on the BQFA proposed in Biswas
   	- MSDF_in_Cuccaro:		the QMDA based on the BQFA proposed in Cuccaro
   	- MSDF_in_Google:		the QMDA based on the BQFA proposed in Google
