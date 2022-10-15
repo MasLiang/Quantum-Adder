@@ -33,12 +33,11 @@ This is a library of quantum adder based on Qiskit platform provided by IBM, inc
 	- CRA_in_Sohel:			CRA based on NQFA in Sohel
 - quantum most-significant digit-first adder
   	- QMDA_Carry_First:		Qubit-efficient QMDA with carry-first QFAs
-  	- MSDF_mixed:			QMDA with qubit-efficient and low T-count optimisations by using 
-        temporary logical-AND, carry- and sum-first QFAs
+  	- MSDF_mixed:			QMDA with qubit-efficient and low T-count optimisations by using temporary logical-AND, carry- and sum-first QFAs
   	- MSDF_Sum_google_mixed:	QMDA with qubit-efficient and low T-count optimisations. 
-  	- MSDF_in_Biswas: 		the QMDA based on the BQFA proposed in Biswas
-  	- MSDF_in_Cuccaro:		the QMDA based on the BQFA proposed in Cuccaro
-  	- MSDF_in_Google:		the QMDA based on the BQFA proposed in Google
-  	- MSDF_in_Islam:		the QMDA based on the BQFA proposed in Islam
-  	- MSDF_in_Mazumder:		the QMDA based on the BQFA proposed in Mazumder
-  	- MSDF_in_Sohel:		the QMDA based on the BQFA proposed in Sohel 
+  	- MSDF_in_Biswas: 		QMDA based on the BQFA proposed in Biswas
+  	- MSDF_in_Cuccaro:		QMDA based on the BQFA proposed in Cuccaro
+  	- MSDF_in_Google:		QMDA with low-depth and low T-count optimisations by using temporary logical-AND based QFAs
+  	- MSDF_in_Islam:		QMDA based on the BQFA proposed in Islam
+  	- MSDF_in_Mazumder:		QMDA based on the BQFA proposed in Mazumder
+  	- MSDF_in_Sohel:		QMDA based on the BQFA proposed in Sohel 
